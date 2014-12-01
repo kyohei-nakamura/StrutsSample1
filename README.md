@@ -1,0 +1,1 @@
+Struts taglibのbean:writeタグのignore属性の動作確認
