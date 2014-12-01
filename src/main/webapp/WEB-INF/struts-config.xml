@@ -16,8 +16,6 @@
 		<action path="/sample" forward="/views/welcome.jsp"></action>
 		<action path="/sample_ignore" type="sample.struts1.ActionSample"
 			name="formSample" parameter="execute">
-			<!-- <action path="/sample_ignore" type="sample.struts1.ActionSample" -->
-			<!-- parameter="execute"> -->
 			<forward name="ignore_true" path="/views/ignore_true.jsp"></forward>
 			<forward name="ignore_false" path="/views/ignore_false.jsp"></forward>
 		</action>
